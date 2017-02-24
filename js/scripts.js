@@ -9,11 +9,14 @@ var count = function(pingpong){
   }
   // debugger;
   for (var i = 0; i <= numerials; i++) {
-    if (numberArray[i] % 3 === 0) {
+    if (numberArray[i] % 5 === 0){
+      var a = numberArray.indexOf(numberArray[i]);
+      numberArray.splice(a,1,"pong");
+    } else if (numberArray[i] % 3 === 0) {
       var a = numberArray.indexOf(numberArray[i]);
       numberArray.splice(a,1,"ping");
     } else{
-      alert ("try again")
+
     }
   }
   sliced = numberArray.slice(0, numerials);

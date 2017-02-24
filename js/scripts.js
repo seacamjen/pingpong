@@ -7,7 +7,6 @@ var count = function(pingpong){
   for (var i = 1; i <= numerials; i++) {
     numberArray.push(i);
   }
-  // debugger;
   for (var i = 0; i <= numerials; i++) {
     if (numberArray[i] % 15 === 0){
       var a = numberArray.indexOf(numberArray[i]);

@@ -1,8 +1,8 @@
-.answer {
+#answer {
   display: none;
 }
 
-h1 {
+h1#topheader {
   background-color: orange;
   text-align: center;
   font-size: 100px;

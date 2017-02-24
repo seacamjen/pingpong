@@ -1,7 +1,9 @@
 //Business Logic
-numberArray = [];
+// numberArray = [];
+sliced = 0;
 
 var count = function(pingpong){
+  numberArray = [];
   for (var i = 1; i <= numerials; i++) {
     numberArray.push(i);
   }
@@ -26,13 +28,12 @@ var count = function(pingpong){
 $(function() {
   $("form").submit(function(event) {
     event.preventDefault();
+    $("#blah li").remove();
     numerials = parseInt($("#numberEntry").val());
     output = count(numerials);
-    $("ul").empty();
-    output.forEach(function(nums) {
+    output.map(function(nums) {
       $("ul").append("<li>" + nums + "</li>");
-
     });
-    $(".answer").show();
+    $("#answer").show();
   });
 });

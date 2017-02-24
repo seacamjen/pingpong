@@ -29,8 +29,10 @@ $(function() {
     event.preventDefault();
     numerials = parseInt($("#numberEntry").val());
     output = count(numerials);
+    $("ul").empty();
     output.forEach(function(nums) {
       $("ul").append("<li>" + nums + "</li>");
+
     });
     $(".answer").show();
   });

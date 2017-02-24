@@ -1,6 +1,6 @@
 # Ping Pong
 
-#### This site will take a user number input and each time that input is divisible by 3, 5, or 15 it will response with ping, pong, ping-pong respectively, 02.24.17_
+#### This site will take a user number input and each time that input is divisible by 3, 5, or 15 it will response with ping, pong, ping-pong respectively, 02.24.17
 
 #### By _Cameron Jensen_
 
@@ -25,7 +25,7 @@ This page only requires a web browser to function. It can only be found on GITHU
 ## Specifications
  * User inputs a number that will output in an unordered list
    * Example Input: 7
-   * Example Output: <li>7</li>
+   * Example Output: 7 with in ul
  * It can count up to the provided number
    * Example Input: 7
    * Example Output: 1,2,3,4,5,6,7

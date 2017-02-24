@@ -22,7 +22,6 @@ var count = function(pingpong){
     return sliced;
 };
 
-
 //User Interface
 $(function() {
   $("form").submit(function(event) {

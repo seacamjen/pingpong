@@ -8,11 +8,20 @@ var count = function(pingpong){
     numberArray.push(i);
   }
   // debugger;
+  for (var i = 0; i <= numerials; i++) {
+    if (numberArray[i] % 3 === 0) {
+      var a = numberArray.indexOf(numberArray[i]);
+      numberArray.splice(a,1,"ping");
+    } else{
+      alert ("try again")
+    }
+  }
   sliced = numberArray.slice(0, numerials);
   return sliced;
 };
 
-// return sliced;
+
+
 
 //User Interface
 $(function() {
@@ -24,7 +33,7 @@ $(function() {
     output.forEach(function(nums) {
       $("ul").append("<li>" + nums + "</li>");
     });
-    
+
     $(".answer").show();
   });
 });

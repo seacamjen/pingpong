@@ -1,7 +1,5 @@
 //Business Logic
-var numberArray = [];
-var sliced = [];
-var list = [];
+numberArray = [];
 
 var count = function(pingpong){
   for (var i = 1; i <= numerials; i++) {
@@ -18,14 +16,11 @@ var count = function(pingpong){
       var a = numberArray.indexOf(numberArray[i]);
       numberArray.splice(a,1,"ping");
     } else{
-
     }
+    sliced = numberArray.slice(0, numerials);
   }
-  sliced = numberArray.slice(0, numerials);
-  return sliced;
+    return sliced;
 };
-
-
 
 
 //User Interface
@@ -34,11 +29,9 @@ $(function() {
     event.preventDefault();
     numerials = parseInt($("#numberEntry").val());
     output = count(numerials);
-
     output.forEach(function(nums) {
       $("ul").append("<li>" + nums + "</li>");
     });
-
     $(".answer").show();
   });
 });

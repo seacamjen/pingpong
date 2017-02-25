@@ -3,9 +3,10 @@
 }
 
 h1#topheader {
-  background-color: orange;
+  background-image: url("../img/speedypp.gif");
   text-align: center;
   font-size: 100px;
+  padding: 35px;
 }
 
 body {
@@ -17,7 +18,7 @@ body {
 }
 
 .well {
-  background-color: green;
+  background-color: #4a9b71;
   text-align: center;
   font-size: 25px;
   font-family: 'Lobster' , cursive;
@@ -26,4 +27,8 @@ body {
 
 a {
   color: #050077;
+}
+
+row {
+  border: black 5px;
 }

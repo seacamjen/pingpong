@@ -23,15 +23,6 @@ _This site will take a user number input and each time that input is divisible b
 This page only requires a web browser to function. It can only be found on GITHUB.
 
 ## Specifications
- * User inputs a number that will output in an unordered list
-   * Example Input: 7
-   * Example Output: 7 with in ul
- * It can count up to the provided number
-   * Example Input: 7
-   * Example Output: 1,2,3,4,5,6,7
- * Output numbers are displayed on a new line
-   * Example Input: 1,2,3,4,5,6,7
-   * Example Output: 1 / 2 / 3 / 4 / 5 / 6 / 7
  * Numbers divisible by 3 are replaced with "ping"
    * Example Input: 3
    * Example Output: "ping"
@@ -41,10 +32,6 @@ This page only requires a web browser to function. It can only be found on GITHU
  * Numbers divisible by 15 are replaced with "ping"
    * Example Input: 15
    * Example Output: "ping-pong"
- * Only numbers can be entered
-   * Example Input: a
-   * Example Output: N/A
-
 
 ## Known Bugs
 
